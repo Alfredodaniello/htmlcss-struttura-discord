@@ -8,6 +8,13 @@
 }
 
 /*-------------
+    GENERAL
+-------------*/
+.align {
+    align-items: center;
+}
+
+/*-------------
     HEADER
 -------------*/
 
@@ -60,7 +67,6 @@ SECTION BLUE
     display: flex;
     height: 500px;
     background-color: #00008b;
-    align-items: center;
 }
 
 .hero {
@@ -70,3 +76,49 @@ SECTION BLUE
     background-color: #ee82ee;
     margin: auto;
 }
+
+/*-------------
+SECTION BACK-WHITE
+-------------*/
+
+.background {
+    height: 600px;
+}
+
+.back-white {
+    background-color: #ffffff;
+    display: flex;
+}
+
+.row {
+    display: flex;
+    width: 1072px;
+    margin: auto;
+    height: 500px;
+}
+
+.row div {
+    border: 2px dashed #000000;
+    height: 500px;
+}
+
+.col-60 {
+    background-color:#1e90ff ;
+    width: 60%;
+}
+
+.col-40 {
+    background-color: #ffc0cb;
+    width: 40%;
+}
+
+.back-gray {
+    display: flex;
+    background-color: #d3d3d3;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+
