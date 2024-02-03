@@ -17,6 +17,19 @@
 .align {
     align-items: center;
 }
+
+.align-e {
+    align-items: end;
+}
+
+.justify {
+    justify-content: center;
+}
+
+.justify-b {
+    justify-content: space-between;
+}
+
 /*-------------
     HEADER
 -------------*/
@@ -167,6 +180,25 @@ SECTION BACK-BLACK
     background-color: #20b2aa;
 }
 
+/*-------------
+    FOOTER
+-------------*/
 
+footer {
+    background-color: #23272a;
+    height: 105px;
+}
+
+.end {
+    width: 1072px;
+    height: 74px;
+    background-color: #7ffdf4;
+}
+
+.logo, .bottone{
+    padding: 7px;
+    border: 2px dashed #000000;
+    background-color: #ffb6c1;
+}
 
 
