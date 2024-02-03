@@ -10,23 +10,24 @@
 /*-------------
     GENERAL
 -------------*/
+.d-flex {
+    display: flex;
+}
+
 .align {
     align-items: center;
 }
-
 /*-------------
     HEADER
 -------------*/
 
 header {
-    display: flex;
     background-color: #add8e6;
     height: 80px;
     align-items: center;
 }
 
 .container {
-    display: flex;
     margin: auto;
     width: 1072px;
     background-color: #daa520;
@@ -64,7 +65,6 @@ SECTION BLUE
 -------------*/
 
 .back-blue {
-    display: flex;
     height: 500px;
     background-color: #00008b;
 }
@@ -87,11 +87,9 @@ SECTION BACK-WHITE
 
 .back-white {
     background-color: #ffffff;
-    display: flex;
 }
 
 .row {
-    display: flex;
     width: 1072px;
     margin: auto;
     height: 500px;
@@ -113,12 +111,28 @@ SECTION BACK-WHITE
 }
 
 .back-gray {
-    display: flex;
     background-color: #d3d3d3;
 }
 
 .row-reverse {
     flex-direction: row-reverse;
 }
+
+/*-------------
+SECTION BACK-GRAY
+-------------*/
+
+.back-green {
+    height: 1000px;
+}
+
+.green {
+    background-color: #228b22;
+    margin: auto;
+    border: 2px dashed #000000;
+    width: 1072px;
+    height: 900px;;
+}
+
 
 
