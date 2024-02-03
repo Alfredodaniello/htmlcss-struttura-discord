@@ -1,0 +1,53 @@
+/*-------------
+    RESET
+-------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-------------
+    HEADER
+-------------*/
+
+header {
+    display: flex;
+    background-color: #add8e6;
+    height: 80px;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    width: 1072px;
+    background-color: #daa520;
+    height: 50px;
+}
+
+.container div {
+    border: 2px dashed #000000;
+}
+
+.col-side {
+    width: 25%;
+}
+
+.col-middle {
+    width: 50%;
+    text-align: center;
+}
+
+span {
+    line-height: 50px;
+}
+
+.left {
+    padding-left: 10px;
+}
+
+.right {
+    padding-right: 10px;
+    text-align: end;
+}
